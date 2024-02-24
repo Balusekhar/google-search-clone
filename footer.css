@@ -1,0 +1,14 @@
+.main-section{
+    height: 50px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.main-section ul{
+    display: flex;
+    gap: 20px;
+}

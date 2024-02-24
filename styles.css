@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+html, body {
+    height: 100%; /* Make sure html and body are at least the height of the viewport */
+    margin: 0; /* Reset default margin */
+    display: flex; /* Use flexbox layout */
+    flex-direction: column; /* Stack elements vertically */
+}
+
+body > header {
+    flex-shrink: 0; /* Prevent the header from shrinking */
+}
+
+body > main {
+    flex-grow: 1; /* Allow the main content to grow and fill available space */
+}
+
+body > footer {
+    flex-shrink: 0; /* Prevent the footer from shrinking */
+}
+
+
+.header{
+    height: 60px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 42px;
+}
+
+.left-nav ul{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    text-decoration: none;
+    color: #202124;
+}
+
+.right-nav ul{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    text-decoration: none;
+    color: #000000,;
+}
+
+.right-nav ul img{
+    border-radius: 30px;
+    height: 38px;
+}
